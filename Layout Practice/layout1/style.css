@@ -1,0 +1,45 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #d8d8d8;
+  width: 80%;
+  max-width: 900px;
+  margin: 50px auto 0 auto;
+  border: 1px solid black;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #ccc;
+  border: 1px solid black;
+}
+
+.featured .box {
+  width: 33.333333%;
+  height: 150px;
+  background-color: #999;
+  float: left;
+  border: 1px solid black;
+}
+
+.about .box {
+  width: 50%;
+  height: 250px;
+  background-color: #555;
+  float: left;
+  border: 1px solid black;
+}
+
+footer {
+  background-color: #ccc;
+  height: 100px;
+  width: 100%;
+  border: 1px solid black;
+  clear: both;
+}
