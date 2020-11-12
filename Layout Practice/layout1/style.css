@@ -5,6 +5,19 @@
   box-sizing: border-box;
 }
 
+/* Clearfix - Use class on div, etc... */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
 .container {
   background-color: #d8d8d8;
   width: 80%;
@@ -41,5 +54,4 @@ footer {
   height: 100px;
   width: 100%;
   border: 1px solid black;
-  clear: both;
 }
